@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--    <input type="hidden" value='[{" productName":"Backup Plus Slim 2 TB External Hard Disk Drive","productImg":"https://rukminim1.flixcart.com/image/100/100/jv19qq80/external-hard-drive/hdd/5/g/s/seagate-sthn2000402-original-imafgyvmykreh3wj.jpeg?q=90","brand":"Seagate","originalPrice":7098,"offeredPrice":5499,"ratings":"4.4","qty":3,"color":"Light Blue"},{"productName":"My Passport 2 TB Wired External Hard Disk Drive","productImg":"https://rukminim1.flixcart.com/image/100/100/ji20r680/external-hard-drive/hdd/v/j/z/wd-wdbs4b0020bor-wesn-original-imaf5xs2jmg3gh74.jpeg?q=90","brand":"Western Digital (WD)","originalPrice":8245,"offeredPrice":5949,"ratings":"4.5","qty":1,"color":"Orange"},{"productName":"Ultra Touch 2 TB External Hard Disk Drive","productImg":"https://rukminim1.flixcart.com/image/100/100/jvv9zm80/external-hard-drive/hdd/5/k/z/seagate-sthh1000300-original-imafgjv84hcsjphc.jpeg?q=90","brand":"Seagate","originalPrice":7999,"offeredPrice":5999,"ratings":"4.5","qty":5,"color":"Black"}]' id="productJson" />-->
+    <div class="container">
+        <div class="row">
+            <h2 class="heading">User Cart</h2>
+            <div class="col-md-8">
+                
+                <div class="productTableBody"></div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="amountSection container">
+                    <h4>Price Details</h4>
+                    <div class="row">
+                        <div class="col-md-7">Total Amount : </div>
+                        <div class="totalAmount col-md-5"></div>
+                    </div>
+                    <div class="row hide" id="couponSection">
+                        <div class="col-md-7">Coupon Discount : </div>
+                        <div class="couponDiscount col-md-5"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">GST : </div>
+                        <div class="GSTAmount col-md-5"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">Payable : </div>
+                        <div class="payableAmount col-md-5"></div>
+                    </div>
+                </div>
+                <div class="coupon">
+                    <h4>Apply Coupon</h4>
+                    <div class="">
+                        <input type="text" class="coupon-field" />
+                        <button class="coupon-button">OK</button>
+                        <p class="coupon-error">Please enter valid coupon code</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
